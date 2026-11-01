@@ -614,11 +614,6 @@ with left_column:
                 },
                 "audio": False
             },
-            rtc_configuration={
-                "iceServers": [
-            {"urls": ["stun:stun.l.google.com:19302"]}
-            ]
-        },
             async_processing=True
         )
 
